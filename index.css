@@ -6,15 +6,12 @@
 .footer-container {
   padding: 15px;
   width: 100%;
-  background-color: #BCE3E8;
+  background-color: #608BA6;
   text-align: center;
 }
 
-.navbar
-.navbar-expand-lg
-.navbar-light
 .bg-light {
-  background-color: blue !important;
+  background-color: #608BA6 !important;
 }
 
 .home-body-container {
@@ -23,25 +20,125 @@
   justify-content: space-around;
 }
 .home-body-object {
-  background-color: #BBF6FF;
+  background-color: #000000;
   padding: 300px;
   text-align: center;
   font-size: 35px;
-  color: #686868;
+  color: #608BA6;
 }
 .home-body-special-object {
   padding: 300px;
   text-align: center;
   font-size: 35px;
-  background-color: #DCFFF9;
+  background-image: url(https://farm3.staticflickr.com/2927/13989433406_b1d2d3a1d6_b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .home-body-button a {
   border-radius: 25px;
-  border: 2px solid #BCE3E8;
+  border: 2px solid #608BA6;
   padding: 20px 50px 20px 50px;
   width: 200px;
   height: 150px;
   text-decoration: none;
-  background-color: #BCE3E8;
-  color: #484848;
+  color: #608BA6;
+}
+
+/*about stuff */
+
+.about-body-container {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  width: 100%;
+  }
+.about-body-object {
+  font-size: 25px;
+  justify-content: center;
+  width:100%;
+  flex-direction: row;
+  background-color: #000000;
+  text-align: center;
+  padding: 100px;
+  color: #608BA6;
+}
+.about-body-object-special {
+  font-size: 25px;
+  border: 10px solid #000000;
+  justify-content: center;
+  width:100%;
+  flex-direction: column;
+  background-color: white;
+  text-align: center;
+  margin:
+}
+.about-body-object-image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+
+/* sign in stuff */
+.signin-body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+
+}
+.signin-body-object  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(https://farm5.staticflickr.com/4212/35529789441_fc879dc9c9_b.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 300px;
+  align-items: center;
+  font-size: 18px;
+}
+.signin-body-object-within  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #608BA6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 25px 15px 25px 15px;
+  border-radius: 25px;
+  align-items: center;
+  font-size: 18px;
+}
+.signin-body-object a {
+  color: white;
+}
+
+/*gear stuff*/
+
+.gear-body-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 100px;
+  background-color: black;
+  justify-content: center;
+}
+.gear-body-object {
+  color: white;
+  padding: 50px;
+  background-image: url(https://farm5.staticflickr.com/4263/35620549956_8508635139_b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+}
+.gear-body-object a {
+  color: white;
 }
